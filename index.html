@@ -15,6 +15,12 @@
       .fs-7 {
         font-size: 0.75rem !important;
       }
+      .text-crimson {
+        color: #A51C30;
+      }
+      .bg-crimson {
+        background-color: #A51C30;
+      }
     </style>
   </head>
   <body>
@@ -22,7 +28,7 @@
       <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container">
           <a class="navbar-brand" href="https://harvardundergradcyberclub.github.io">
-          <img style="width: 5rem" src="logo-white.svg" alt="HUCC">
+            <img style="width: 5rem" src="logo-white.svg" alt="HUCC">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -41,6 +47,9 @@
               <li class="nav-item">
                 <a class="nav-link scroll" href="#contact">Contact Us</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link scroll" href="#fun">Just For Fun</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -56,13 +65,13 @@
       </section>
       <section id="board" class="container-fluid pt-2">
         <h1>Our Board</h1>
-        <div class="row row-cols-1 row-cols-md-4">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
           <div class="col">
             <div class="card shadow-sm rounded mb-3 bg-dark bg-opacity-10">
               <img class="card-img-top" src="abe.jpg" alt="A headshot of the president, Abe Wieland">
               <div class="card-body">
                 <h4 class="card-title">Abe Wieland</h4>
-                <h5 class="card-subtitle text-muted">President</h5>
+                <h5 class="card-subtitle text-crimson">President</h5>
                 <p class="card-text">Abe is a junior in Currier concentrating in CS.</p>
               </div>
             </div>
@@ -72,7 +81,7 @@
               <img class="card-img-top" src="austin.jpg" alt="A headshot of the treasurer, Austin Wilson">
               <div class="card-body">
                 <h4 class="card-title">Austin Wilson</h4>
-                <h5 class="card-subtitle text-muted">Treasurer</h5>
+                <h5 class="card-subtitle text-crimson">Treasurer</h5>
                 <p class="card-text">Austin is a sophomore in Quincy concentrating in CS.</p>
               </div>
             </div>
@@ -82,7 +91,7 @@
               <img class="card-img-top" src="alex.jpg" alt="A headshot of the events chair, Alex Bernat">
               <div class="card-body">
                 <h4 class="card-title">Alex Bernat</h4>
-                <h5 class="card-subtitle text-muted">Events Chair</h5>
+                <h5 class="card-subtitle text-crimson">Events Chair</h5>
                 <p class="card-text">Alex is a sophomore in Lowell joint concentrating in CS & EE.</p>
               </div>
             </div>
@@ -92,7 +101,7 @@
               <img class="card-img-top" src="brad.jpg" alt="A headshot of the outreach chair, Brad Campbell">
               <div class="card-body">
                 <h4 class="card-title">Brad Campbell</h4>
-                <h5 class="card-subtitle text-muted">Outreach Chair</h5>
+                <h5 class="card-subtitle text-crimson">Outreach Chair</h5>
                 <p class="card-text">Brad is a junior in Quincy concentrating in CS.</p>
               </div>
             </div>
@@ -103,8 +112,14 @@
         <h1>Contact Us</h1>
         <p class="fs-5-5">We'd love to hear from you! Please email us at <a class="text-decoration-none" href="mailto:harvardundergradcyberclub@gmail.com">harvardundergradcyberclub@gmail.com</a> with any comments, inquiries, or requests.</p>
       </section>
+      <section id="fun" class="container-fluid py-2">
+        <h1>Just For Fun</h1>
+        <p class="fs-5-5">Isn't this truly a stunning vista?</p>
+        <img class="img-fluid" src="vista.jpg" alt="A stunning vista">
+        <!-- So here's a fun adventure for you - I'd take a closer look at that photo; there might be more than meets the eye. Once you've discovered all there is to know with the photo, you might to return here and answer the question: what's the final secret? We can give you the password salt (SrCl2), but you'll have to find out the password yourself to access the final message: mTDdiI5/I6Bmbllf8VJqGgTaaQOhcvrvGs0mUYK6Ppznwl7vJ1IsdjFNBNreRMlF3l3c3Cs9VgcnA89cONvu12Bwv4Rwbygo1aa2hUYMrSUosSHxGy4k0Y73GAvRpK9TNu8k+aWlZQ8czFIyQyBYnsctdYGFPip1MZR8+sy8rxSv+ONRfesbiYm5vx6772ZRovYkJBt8UoSE0nVBjgjiOnBLeHLP04geuSgahm7H6iQtu5XESeBNY1A6B4kKahi7 -->
+      </section>
     </main>
-    <footer style="background-color: #A51C30">
+    <footer class="bg-crimson">
       <div class="fs-6-5 text-white container py-2 text-center">
         © 2022 Harvard Undergraduate Cybersecurity Club<br>
         The Harvard College name and/or shield are trademarks of the President and Fellows of Harvard College and are used by permission of Harvard University.
