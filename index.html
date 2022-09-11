@@ -5,16 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Harvard Undergraduate Cybersecurity Club</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <style>
+      .fs-5-5 {
+        font-size: 1.125rem !important;
+      }
+      .fs-6-5 {
+        font-size: 0.825rem !important;
+      }
+      .fs-7 {
+        font-size: 0.75rem !important;
+      }
+    </style>
   </head>
   <body>
     <header id="header" class="sticky-top">
       <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container">
-          <a class="navbar-brand" href="https://harvardundergradcyberclub.github.io">HUCC</a>
+          <a class="navbar-brand" href="https://harvardundergradcyberclub.github.io">
+          <img style="width: 5rem" src="logo-white.svg" alt="HUCC">
+          </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse flex-grow-0" id="navbarCollapse">
+          <div class="fs-5-5 collapse navbar-collapse flex-grow-0" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb-2 mb-md-0">
               <li class="nav-item">
                 <a class="nav-link scroll active" aria-current="true" href="#top">Home</a>
@@ -23,7 +36,7 @@
                 <a class="nav-link scroll" href="#about">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link scroll" href="#board">Our Team</a>
+                <a class="nav-link scroll" href="#board">Our Board</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link scroll" href="#contact">Contact Us</a>
@@ -33,26 +46,68 @@
         </div>
       </nav>
     </header>
-    <main>
-      <div id="top" style="min-height: 75rem">
-        <!-- Banner here (or do we need a banner??) -->
+    <main class="container">
+      <div id="top" class="justify-content-center row pt-4">
+        <img class="col-6 col-md-4" src="logo.svg" alt="HUCC Logo">
       </div>
-      <div class="container">
-        <section id="about" class="container-fluid pt-2" style="min-height: 75rem">
-          <h2>About Us</h2>
-          <p>The Harvard Undergraduate Cybersecurity Club is a student-run organization at Harvard College dedicated to encouraging exploration of, and raising interest in, cybersecurity. We meet once a week to practice our skills and learn new ones, and participate in </p>
-        </section>
-        <section id="board" class="container-fluid pt-2" style="min-height: 75rem">
-          <h2>Our Board</>
-        </section>
-        <section id="contact" class="container-fluid pt-2" style="min-height: 75rem">
-          <h2>Contact Us</h2>
-        </section>
-      </div>
+      <section id="about" class="container-fluid pt-2">
+        <h1>About Us</h1>
+        <p class="fs-5-5">The Harvard Undergraduate Cybersecurity Club is a student-run organization at Harvard College dedicated to encouraging exploration of, and raising interest in, cybersecurity. We meet once a week to practice our skills and learn new ones, and every year we participate in cybersecurity competitions. Ok, so there needs to be more stuff here... </p>
+      </section>
+      <section id="board" class="container-fluid pt-2">
+        <h1>Our Board</h1>
+        <div class="row row-cols-1 row-cols-md-4">
+          <div class="col">
+            <div class="card shadow-sm rounded mb-3 bg-dark bg-opacity-10">
+              <img class="card-img-top" src="abe.jpg" alt="A headshot of the president, Abe Wieland">
+              <div class="card-body">
+                <h4 class="card-title">Abe Wieland</h4>
+                <h5 class="card-subtitle text-muted">President</h5>
+                <p class="card-text">Abe is a junior in Currier concentrating in CS.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm rounded mb-3 bg-dark bg-opacity-10">
+              <img class="card-img-top" src="austin.jpg" alt="A headshot of the treasurer, Austin Wilson">
+              <div class="card-body">
+                <h4 class="card-title">Austin Wilson</h4>
+                <h5 class="card-subtitle text-muted">Treasurer</h5>
+                <p class="card-text">Austin is a sophomore in Quincy concentrating in CS.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm rounded mb-3 bg-dark bg-opacity-10">
+              <img class="card-img-top" src="alex.jpg" alt="A headshot of the events chair, Alex Bernat">
+              <div class="card-body">
+                <h4 class="card-title">Alex Bernat</h4>
+                <h5 class="card-subtitle text-muted">Events Chair</h5>
+                <p class="card-text">Alex is a sophomore in Lowell joint concentrating in CS & EE.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm rounded mb-3 bg-dark bg-opacity-10">
+              <img class="card-img-top" src="brad.jpg" alt="A headshot of the outreach chair, Brad Campbell">
+              <div class="card-body">
+                <h4 class="card-title">Brad Campbell</h4>
+                <h5 class="card-subtitle text-muted">Outreach Chair</h5>
+                <p class="card-text">Brad is a junior in Quincy concentrating in CS.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="container-fluid pt-2">
+        <h1>Contact Us</h1>
+        <p class="fs-5-5">We'd love to hear from you! Please email us at <a class="text-decoration-none" href="mailto:harvardundergradcyberclub@gmail.com">harvardundergradcyberclub@gmail.com</a> with any comments, inquiries, or requests.</p>
+      </section>
     </main>
     <footer style="background-color: #A51C30">
-      <div class="text-white container py-2 fs-6">
-      <p>© 2022 Harvard Undergraduate Cybersecurity Club. The Harvard College name and/or shield are trademarks of the President and Fellows of Harvard College and are used by permission of Harvard University.</p>
+      <div class="fs-6-5 text-white container py-2 text-center">
+        © 2022 Harvard Undergraduate Cybersecurity Club<br>
+        The Harvard College name and/or shield are trademarks of the President and Fellows of Harvard College and are used by permission of Harvard University.
       </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
